@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="../../scss/main.css">
+    <script src="script.js" defer></script>
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- <div class="navbar">
+        <ul>
+            <li><a href="../home-page/index.html"><h1>Udemy</h1></a></li>
+            <li><a href="#">Categories</a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><a href="../categories/development/index.html">Development</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../categories/development/python/index.html">Python</a></li>
+                                    <li><a href="../categories/development/javascript/index.html">Javascript</a></li>
+                                    <li><a href="../categories/development/next.js/index.html">Next Js</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../categories/marketing/index.html">Marketing</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../categories/marketing/digital-marketing/index.html">Digital Marketing</a></li>
+                                    <li><a href="../categories/marketing/smm/index.html">SMM</a></li>
+                                    <li><a href="../categories/marketing/content-marketing/index.html">Content Marketing</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../categories/it and software/index.html">IT and Software</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../categories/it and software/amazon-aws/index.html">Amazon AWS</a></li>
+                                    <li><a href="../categories/it and software/ethical-hacking/index.html">Ethical Hacking</a></li>
+                                    <li><a href="../categories/it and software/cyber-security/index.html">Cyber Security</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../categories/design/index.html">Design</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../categories/design/photoshop/index.html">Photoshop</a></li>
+                                    <li><a href="../categories/design/graphic-design/index.html">Graphic Design</a></li>
+                                    <li><a href="../categories/design/drawing/index.html">Drawing</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li id="search"><input type="text" placeholder="Search for anything">
+                <div class="dropdown-menu" id="drop">
+                    <ul>
+                        <li><a href="../categories/development/index.html">Development</a></li>
+                        <li><a href="../categories/marketing/index.html">Marketing</a></li>
+                        <li><a href="../categories/it and software/index.html">IT and Software</a></li>
+                        <li><a href="../categories/design/index.html">Design</a></li>
+                        <li><a href="../categories/development/python/index.html">Python</a></li>
+                        <li><a href="../categories/development/javascript/index.html">Javascript</a></li>
+                        <li><a href="../categories/development/next.js/index.html">Next Js</a></li>
+                        <li><a href="../categories/marketing/digital-marketing/index.html"></a>Digital Marketing</li>
+                        <li><a href="../categories/marketing/smm/index.html">SMM</a></li>
+                        <li><a href="../categories/marketing/content-marketing/index.html">Content Marketing</a></li>
+                        <li><a href="../categories/it and software/amazon-aws/index.html">Amazon AWS</a></li>
+                        <li><a href="../categories/it and software/ethical-hacking/index.html">Ethical Hacking</a></li>
+                        <li><a href="../categories/it and software/cyber-security/index.html">Cyber Security</a></li>
+                        <li><a href="../categories/design/drawing/index.html">Drawing</a></li>
+                        <li><a href="../categories/design/graphic-design/index.html">Graphic Design</a></li>
+                        <li><a href="../categories/design/photoshop/index.html">Photoshop</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li><a href="../my-courses/index.html">My courses</a></li>
+            <li><a href="../about-page/index.html">About Udemy</a></li>
+            <li><a href="../cart-page/index.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li>
+                <div class="login">
+                    <a href="../login-page/index.html">Log in</a>
+                </div>
+            </li>
+            <li>
+                <div class="signup">
+                    <a href="../signup-page/index.html" class="signup">Sign up</a>
+                </div>
+            </li>
+        </ul>
+    </div> -->
+    <div class="slider">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+        <div class="container">
+            <img src="../../assets/slider/slider-picture1.jpg" alt="" class="image-item">
+            <img src="../../assets/slider/slider-picture2.jpg" alt="" class="image-item">
+            <img src="../../assets/slider/slider-picture3.jpg" alt="" class="image-item">
+            <img src="../../assets/slider/slider-picture4.jpg" alt="" class="image-item">
+        </div>
+        <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+        <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+                <div class="scrollbar-thumb">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="supporter">
+        <div class="top">
+            <p>Trusted by over 15,000 companies and millions of learners around the world</p>
+        </div>
+        <div class="down">
+            <img src="../../assets/supporter/samsung-logo.png" alt="">
+            <img src="../../assets/supporter/cisko-logo.png" alt="">
+            <img src="../../assets/supporter/att-logo.png" alt="">
+            <img src="../../assets/supporter/w-logo.png" alt="">
+            <img src="../../assets/supporter/pg-logo.png" alt="" id="pg">
+            <img src="../../assets/supporter/hp-logo.png" alt="" id="hp">
+        </div>
+    </div>
+    <div class="main">
+        <h1>A broad selection of courses</h1>
+        <p>Choose from over 210,000 online video courses with new additions published every month</p>
+        <div class="courses-name">
+            <h3>Python</h3>
+            <h3>Web Development</h3>
+            <h3>JavaScript</h3>
+            <h3>Amazon AWS</h3>
+            <h3>Drawing</h3>
+        </div>
+        <div class="courses-table">
+            <h2>Expand your career opportunities with Python</h2>
+            <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its <br/> syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll <br/> learn how to build everything from games to sites to apps.</p>
+            <a href="../categories/development/python/index.html">
+                <button type="submit" class="button">
+                    <h4>Explore Python</h4>
+                </button>
+            </a>
+            <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+            <div class="courses">
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture1.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                        <p>Jose Portilla</p>
+                        <div class="rating">
+                            <h4>4.6</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(494,783)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture2.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>Automate the Boring Stuff with Python</h3></a>
+                        <p>Al Sweigart</p>
+                        <div class="rating">
+                            <h4>4.7</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(111,519)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture3.jpg" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>100 Days of Code: The Complete Python</h3></a>
+                        <p>Dr. Angela Yu</p>
+                        <div class="rating">
+                            <h4>4.7</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(273,418)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div id="forth" class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture4.jpg" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>Machine Learning A-Z: Al, Python & R + ChatGPT</h3></a>
+                        <p>Kirill Eremenko</p>
+                        <div class="rating">
+                            <h4>4.5</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(180,930)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div id="fifth" class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture5.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>Python: Master Programming</h3></a>
+                        <p>Dev Nirwal, Ritu Antil</p>
+                        <div class="rating">
+                            <h4>4.2</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(13,637)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$64.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture1.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                        <p>Jose Portilla</p>
+                        <div class="rating">
+                            <h4>4.6</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(494,783)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture1.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                        <p>Jose Portilla</p>
+                        <div class="rating">
+                            <h4>4.6</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(494,783)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture1.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                        <p>Jose Portilla</p>
+                        <div class="rating">
+                            <h4>4.6</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(494,783)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture1.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                        <p>Jose Portilla</p>
+                        <div class="rating">
+                            <h4>4.6</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(494,783)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="../../assets/courses/python-picture1.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                        <p>Jose Portilla</p>
+                        <div class="rating">
+                            <h4>4.6</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(494,783)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$11.99</h3>
+                            <del>$74.99</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+        </div>
+    </div>
+    <div class="comment">
+        <h2>How learners like you are achieving their goals</h2>
+        <div class="card-container">
+            <div class="comment-card one">
+                <i class="fa-solid fa-comment"></i>
+                <p>I am proud to say that after a few months of taking this course...<h4>I passed my exam and am now an AWS Certified Cloud Practitioner!</p>
+                <div class="card-middle">
+                    <div class="circle">
+                        <h4>WA</h4>
+                    </div>
+                    <h4>Will A</h4>
+                </div>
+                <div class="solid"></div>
+                <div class="card-bottom">
+                    <div class="circle">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <a href="../detail-page/index.html"><h4>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h4></a>
+                </div>
+            </div>
+            <div class="comment-card two0">
+                <i class="fa-solid fa-comment"></i>
+                <p>This course helped me <h4>freshen up on my product manager skills and land a job at Facebook!</h4>Thanks guys</p>
+                <div class="card-middle">
+                    <div class="circle">
+                        <h4>WA</h4>
+                    </div>
+                    <h4>Will A</h4>
+                </div>
+                <div class="solid"></div>
+                <div class="card-bottom">
+                    <div class="circle">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <a href="../detail-page/index.html"><h4>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h4></a>
+                </div>
+            </div>
+            <div class="comment-card tree">
+                <i class="fa-solid fa-comment"></i>
+                <p>One of the best courses on management and leadership I have come across so far. The advice is practical, and examples highly relatable. <h4>Would help anyone become a better manager.</h4></p>
+                <div class="card-middle">
+                    <div class="circle">
+                        <h4>WA</h4>
+                    </div>
+                    <h4>Will A</h4>
+                </div>
+                <div class="solid"></div>
+                <div class="card-bottom">
+                    <div class="circle">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <a href="../detail-page/index.html"><h4>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="viewing">
+        <h2>Learners are viewing</h2>
+        <div class="card-container">
+            <div class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/react-picture.png" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>The Complete 2024 Web Development Bootcamp</h3></a>
+                    <p>Dr. Angela Yu</p>
+                    <div class="rating">
+                        <h4>4.7</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(357,195)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$74.99</del>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/python-picture3.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>100 Days of Code: The Complete Python</h3></a>
+                    <p>Dr. Angela Yu</p>
+                    <div class="rating">
+                        <h4>4.7</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(273,418)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$74.99</del>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/python-picture1.png" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                    <p>Jose Portilla</p>
+                    <div class="rating">
+                        <h4>4.6</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(494,783)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$74.99</del>
+                    </div>
+                </div>
+            </div>
+            <div id="forth" class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/aws-picture.png" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>[NEW] Ultimate AWS <br/> Certified Cloud Practitioner</h3></a>
+                    <p>Stephane Maarek</p>
+                    <div class="rating">
+                        <h4>4.7</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(190,362)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$74.99</del>
+                    </div>
+                </div>
+            </div>
+            <div id="fifth" class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/javascript-picture.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>The Complete JavaScript Course 2024 From Zero</h3></a>
+                    <p>Jonas Schmedtmann</p>
+                    <div class="rating">
+                        <h4>4.7</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(199,440)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$74.99</del>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container second">
+            <div class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/web-development.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>Complete Responsive Web Development: 4 courses in 1</h3></a>
+                    <p>Creative Online School</p>
+                    <div class="rating">
+                        <h4>4.6</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(2,966)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$19.99</del>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/html-css.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>HTML, CSS, & Bootstrap-Certification Course</h3></a>
+                    <p>YouAccel Training</p>
+                    <div class="rating">
+                        <h4>4.4</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(2,564)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$54.99</del>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/frontend-picture.png" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>Learn Complete Front-End Web Development Course</h3></a>
+                    <p>Fatah Gabrial</p>
+                    <div class="rating">
+                        <h4>4.5</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(3,682)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$64.99</del>
+                    </div>
+                </div>
+            </div>
+            <div id="forth" class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/angular-picture.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>The Front-End Web Developer Bootcamp</h3></a>
+                    <p>Meta Brains</p>
+                    <div class="rating">
+                        <h4>4.3</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(305)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$54.99</del>
+                    </div>
+                </div>
+            </div>
+            <div id="fifth" class="courses-card">
+                <div class="top">
+                    <img src="../../assets/courses/micro-frontend.png" alt="">
+                </div>
+                <div class="bottom">
+                    <a href="../detail-page/index.html"><h3>Microfrontends with React: A Complete Guide</h3></a>
+                    <p>Stephen Grider</p>
+                    <div class="rating">
+                        <h4>4.7</h4>
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>(7,210)</p>
+                    </div>
+                    <div class="price">
+                        <h3>$11.99</h3>
+                        <del>$74.99</del>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <h2>Top categories</h2>
+        <div class="category-container">
+            <div class="ctgr">
+                <div class="top-categories">
+                    <img src="../../assets/categories/design-picture.jpg" alt="">
+                </div>
+                <div class="category-name">
+                    <a href="../categories/design/index.html"><h3>Design</h3></a>
+                </div>
+            </div>
+            <div class="ctgr">
+                <div class="top-categories">
+                    <img src="../../assets/categories/development-picture.jpg" alt="">
+                </div>
+                <div class="category-name">
+                    <a href="../categories/development/index.html"><h3>Development</h3></a>
+                </div>
+            </div>
+            <div class="ctgr">
+                <div class="top-categories">
+                    <img src="../../assets/categories/marketing-picture.jpg" alt="">
+                </div>
+                <div class="category-name">
+                    <a href="../categories/marketing/index.html"><h3>Marketing</h3></a>
+                </div>
+            </div>
+            <div class="ctgr">
+                <div class="top-categories">
+                    <img src="../../assets/categories/it-software.jpg" alt="">
+                </div>
+                <div class="category-name">
+                    <a href="../categories/it and software/index.html"><h3>IT & Software</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topic">
+        <h2>Featured topics by category</h2>
+        <div class="category-topic">
+            <div class="category-topic-name">
+                <h3>Development</h3>
+                <div class="first">
+                    <a href="../categories/development/python/index.html"><h3>Python</h3></a>
+                    <p>36,354,994 learners</p>
+                </div>
+                <div class="second">
+                    <a href="../categories/development/next.js/index.html"><h3>Next Js</h3></a>
+                    <p>11,415,615 learners</p>
+                </div>
+                <div class="third">
+                    <a href="../categories/development/javascript/index.html"><h3>JavaScript</h3></a>
+                    <p>7,070,015 learners</p>
+                </div>
+            </div>
+            <div class="category-topic-name">
+                <h3>Marketing</h3>
+                <div class="first">
+                    <a href="../categories/marketing/digital-marketing/index.html"><h3>Digital Marketing</h3></a>
+                    <p>1,195,282 learners</p>
+                </div>
+                <div class="second">
+                    <a href="../categories/marketing/smm/index.html"><h3>SMM</h3></a>
+                    <p>5,977,561 learners</p>
+                </div>
+                <div class="third">
+                    <a href="../categories/marketing/content-marketing/index.html"><h3>Content Marketing</h3></a>
+                    <p>1,733,398 learners</p>
+                </div>
+            </div>
+            <div class="category-topic-name">
+                <h3>IT and Software</h3>
+                <div class="first">
+                    <a href="../categories/it and software/amazon-aws/index.html"><h3>Amazon AWS</h3></a>
+                    <p>6,123,456 learners</p>
+                </div>
+                <div class="second">
+                    <a href="../categories/it and software/ethical-hacking/index.html"><h3>Ethical Hacking</h3></a>
+                    <p>10,931,066 learners</p>
+                </div>
+                <div class="third">
+                    <a href="../categories/it and software/cyber-security/index.html"><h3>Cyber Security</h3></a>
+                    <p>3,998,037 learners</p>
+                </div>
+            </div>
+            <div class="category-topic-name">
+                <h3>Design</h3>
+                <div class="first">
+                    <a href="../categories/design/photoshop/index.html"><h3>Photoshop</h3></a>
+                    <p>10,909,736 learners</p>
+                </div>
+                <div class="second">
+                    <a href="../categories/design/graphic-design/index.html"><h3>Graphic Design</h3></a>
+                    <p>3,381,052 learners</p>
+                </div>
+                <div class="third">
+                    <a href="../categories/design/drawing/index.html"><h3>Drawing</h3></a>
+                    <p>2,410,849 learners</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="learn">
+        <div class="left">
+            <img src="../../assets/categories/instructor-picture.jpg" alt="">
+        </div>
+        <div class="right">
+            <h2>Start to learn.</h2>
+            <p>Instructors from around the world teach <br/> millions of learners on Udemy. We <br/> provide the skills to learn what you love.</p>
+        </div>
+    </div>
+    <!-- <div class="footer">
+        <div class="frst-sctn">
+            <div class="field-left">
+                <h1>Our offices</h1>
+                <p>San Francisco, CA</p>
+                <p>Denver, CO</p>
+                <p>Dublin, Ireland</p>
+                <p>Ankara, Türkiye</p>
+                <p>Austin, TX</p>
+                <p>Melbourne, Australia</p>
+                <p>Gurgaon, India</p>
+            </div>
+            <div class="field-middle">
+                <p>About us</p>
+                <p>Email: press@udemy.com</p>
+                <p>Email: privacy@udemy.com</p>
+                <p>Email: dsacompliance@udemy.com</p>
+                </br>
+                <p>Mobile number: +44 7856 135848</p>
+                <p>Mobile number: +44 7652 135646</p>
+            </div>
+            <div class="field-right">
+                <p>Mail: Udemy, Inc.</p>
+                <p>Attn: Legal</p>
+                <p>600 Harrison Street, 3rd Floor</p>
+                <p>San Francisco, CA 94107</p>
+                <p class="inc">© 2024 Udemy, Inc.</p>
+            </div>
+        </div>
+    </div> -->
+</body>
+</html>
